@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  githubreport:
+    build: ./
+    volumes:
+     - ./:/app
